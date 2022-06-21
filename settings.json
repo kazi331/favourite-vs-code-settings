@@ -1,0 +1,94 @@
+{
+  // my setup start
+  "files.autoSave": "afterDelay",
+  "editor.smoothScrolling": true,
+  "terminal.integrated.cursorStyle": "line",
+  "editor.mouseWheelZoom": true,
+  // My setup end
+  // editor
+  "editor.fontSize": 14,
+  // Set the font
+  "editor.fontFamily": "'Cascadia Code', 'Jetbrain Mono', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum', 'calt'",
+  // "editor.fontLigatures": "'calt', 'ss01'",
+  // "editor.fontLigatures": true ,
+  "editor.wordWrap": "off",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  // cursor
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorBlinking": "expand",
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  },
+  "eslint.alwaysShowStatus": true,
+  //terminal
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "normal",
+  // terminal customization
+  "workbench.colorCustomizations": {
+    "terminal.background": "#1D2021",
+    "terminal.foreground": "#A89984",
+    "terminalCursor.background": "#A89984",
+    "terminalCursor.foreground": "#A89984",
+    "terminal.ansiBlack": "#1D2021",
+    "terminal.ansiBlue": "#0D6678",
+    "terminal.ansiBrightBlack": "#665C54",
+    "terminal.ansiBrightBlue": "#0D6678",
+    "terminal.ansiBrightCyan": "#8BA59B",
+    "terminal.ansiBrightGreen": "#95C085",
+    "terminal.ansiBrightMagenta": "#8F4673",
+    "terminal.ansiBrightRed": "#FB543F",
+    "terminal.ansiBrightWhite": "#FDF4C1",
+    "terminal.ansiBrightYellow": "#FAC03B",
+    "terminal.ansiCyan": "#8BA59B",
+    "terminal.ansiGreen": "#95C085",
+    "terminal.ansiMagenta": "#8F4673",
+    "terminal.ansiRed": "#FB543F",
+    "terminal.ansiWhite": "#A89984",
+    "terminal.ansiYellow": "#FAC03B"
+  },
+  "vscode-edge-devtools.mirrorEdits": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "html.format.indentHandlebars": true,
+  "html.format.indentInnerHtml": true,
+  "workbench.colorTheme": "Dracula",
+  "git.suggestSmartCommit": false,
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.formatOnSave": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.minimap.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // Set letter spacing
+  "editor.letterSpacing": 0.4,
+  "editor.lineHeight": 1.6,
+  // my custom edit 
+  // 1. enables vscode native bracket colorization
+  "editor.bracketPairColorization.enabled": true,
+  // 2. enables vscode pair guides
+  "editor.guides.bracketPairs": true,
+  // 3. highlight active tab
+  "workbench.editor.highlightModifiedTabs": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.fontFamily": "cascadia code",
+}
